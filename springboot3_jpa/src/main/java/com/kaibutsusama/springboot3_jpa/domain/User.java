@@ -16,7 +16,8 @@ import lombok.NoArgsConstructor;
 @Entity
 public class User {
     @Id
-    @Column(name = "id", nullable = false)
+    @Column(name = "id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @Column(name = "name")

@@ -17,10 +17,10 @@ class Springboot3JpaApplicationTests {
     @Test
     void contextLoads() {
         User user = new User();
-        user.setId(6);
-        user.setName("Ash");
-        user.setAge(19);
-        user.setEmail("nihao@gmail.com");
+//        user.setId(12);
+//        user.setName("Ash");
+//        user.setAge(19);
+//        user.setEmail("nihao@gmail.com");
         userService.save(user);
     }
 
